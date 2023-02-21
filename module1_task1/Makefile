@@ -1,6 +1,3 @@
-POST_TITLE ?= My New Blog Post
-POST_NAME ?= my-new-blog-post
-
 Publish=hugo
 
 .PHONY: build clean post
