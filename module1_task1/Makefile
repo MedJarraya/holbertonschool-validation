@@ -3,7 +3,7 @@ Publish=hugo
 .PHONY: build clean post
 
 build:
-	hugo --destination dist/
+	$(Publish)
 
 clean:
 	rm -rf dist/*
