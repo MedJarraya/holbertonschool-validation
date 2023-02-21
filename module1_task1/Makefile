@@ -1,9 +1,7 @@
 Publish=hugo
 
-.PHONY: build clean post
-
 build:
-	hugo --destination dist/
+	hugo
 
 clean:
 	rm -rf ./dist/
