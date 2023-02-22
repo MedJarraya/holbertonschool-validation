@@ -1,12 +1,13 @@
-#Just a comment
+# Just a comment
 Publish=hugo
 
 build:
-	hugo
+	$(Publish)
 
 clean:
-	rm -rf ./dist/
+	rm -r dist/*
 
 post:
-	hugo new posts/$(POST_NAME).md
+	$(Publish) new posts/$(POST_NAME).md
 	sed -i 's/title: .*/title: "$(POST_TITLE)"/' content/posts/$(POST_NAME).md
+# just another comment
