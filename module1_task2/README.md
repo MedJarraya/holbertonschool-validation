@@ -10,6 +10,10 @@ Make
 Build Steps
 Follow the steps below to build and deploy the website:
 
+Prerequisites
+GoHugo v0.80+
+goLang
+
 Lifecycle
 The lifecycle for building and deploying the website using Go-Hugo and Make is as follows:
 
