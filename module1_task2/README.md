@@ -22,3 +22,7 @@ When you run the make build command, Go-Hugo generates the static site files and
 If you run the make serve command, a local server is started which serves the static site files from the public directory.
 If you make changes to the source files, you can run the make build command again to regenerate the static site files.
 If you want to deploy the changes to a live server, you can run the make deploy command, which deploys the static site files to the live server.
+Build
+Clean
+Help
+Post
